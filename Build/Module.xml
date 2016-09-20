@@ -2,5 +2,9 @@
 <Module>
   <Name>llml</Name>
   <DefaultAction>resync</DefaultAction>
+  <DisableSynchronisation>false</DisableSynchronisation>
   <GenerateNuGetRepositories>true</GenerateNuGetRepositories>
+  <Packages>
+    <Package Uri="http://protobuild.org/hach-que/xunit" Folder="xunit" GitRef="master" />
+  </Packages>
 </Module>

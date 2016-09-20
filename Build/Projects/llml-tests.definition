@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="llml-tests" Path="llml-tests" Type="Library">
+  <References>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="llml" />
+    <Reference Include="xunit" />
+  </References>
+  <Files>
+  </Files>
+  <Properties>
+    <AssemblyName>llml-tests</AssemblyName>
+    <NoWarn>1591</NoWarn>
+  </Properties>
+</Project>
