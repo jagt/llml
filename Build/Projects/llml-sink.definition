@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="llml" Path="llml" Type="Library">
+<Project Name="llml-sink" Path="llml-sink" Type="Console">
   <References>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="llml" />
   </References>
   <Files>
-    <Compile Include="llData.cs" />
-    <Compile Include="llTable.cs" />
+    <Compile Include="Program.cs" />
   </Files>
   <Properties>
-    <AssemblyName>llml</AssemblyName>
+    <AssemblyName>llml-sink</AssemblyName>
     <NoWarn>1591</NoWarn>
   </Properties>
 </Project>
