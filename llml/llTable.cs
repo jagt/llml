@@ -15,6 +15,7 @@ namespace llml
 		static llTable() {
 			var emptyDict = new Dictionary<string, llData>();
 			_EMPTY_READONLY_DICTIONARY = new ReadOnlyDictionary<string, llData>(emptyDict);
+			_EMPTY_ARRAY = new llData[0]; 
 		}
 
 		/// Array part of the table

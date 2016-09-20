@@ -6,6 +6,7 @@
   </References>
   <Files>
     <Compile Include="llData.cs" />
+    <Compile Include="llMiscs.cs" />
     <Compile Include="llTable.cs" />
   </Files>
   <Properties>

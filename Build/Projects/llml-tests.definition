@@ -4,9 +4,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="llml" />
-    <Reference Include="xunit" />
+    <Reference Include="NUnit" />
   </References>
   <Files>
+    <Compile Include="llmlBasics\fsDataTests.cs" />
   </Files>
   <Properties>
     <AssemblyName>llml-tests</AssemblyName>
